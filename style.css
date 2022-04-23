@@ -6,6 +6,21 @@ Version: 1.1.2
 
 */
 
-.menu-heading{
-    display: none;
+.menu-heading,
+.main-menu,
+.navbar-header > .navbar-brand,
+.woocommerce-result-count,
+.woocommerce-ordering,
+.cart-subtotal,
+.woocommerce-shipping-totals{
+    display: none !important;
+}
+
+.site-header{
+    margin-top: 20px;
+}
+
+.page-area .row{
+    display: flex;
+    flex-direction: column-reverse;
 }
