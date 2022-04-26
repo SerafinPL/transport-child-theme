@@ -31,10 +31,10 @@ Version: 1.1.2
     width: 100% !important;
 }
 
-.col-md-3{
-    width: 33%;
-}
 
+#site-content{
+    min-height: 90vh;
+}
 
 .page-area .row {
   display: flex;
@@ -47,4 +47,11 @@ Version: 1.1.2
   padding: 3px 5px 3px 15px;
   border-collapse: ;
   border-radius: 25px 0px 0px 0px;
+
+}
+
+@media screen and (min-width: 992px) {
+    .col-md-3{
+        width: 33%;
+    }
 }
