@@ -13,7 +13,10 @@ Version: 1.1.2
 .woocommerce-ordering,
 .cart-subtotal,
 .woocommerce-shipping-totals,
-#ship-to-different-address-checkbox{
+#ship-to-different-address-checkbox,
+.woocommerce-shipping-totals,
+.cart-subtotal,
+.product-subtotal{
     display: none !important;
 }
 
