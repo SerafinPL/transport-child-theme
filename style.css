@@ -34,12 +34,13 @@ Version: 1.1.2
 
 #site-content{
     min-height: 90vh;
+    overflow-y: auto;
 }
 
 .page-area .row {
   display: flex;
   flex-direction: column-reverse;
-  height: 50vh;
+  height: 40vh;
 }
 
 .kubaKoderFooter {
