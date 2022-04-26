@@ -39,6 +39,7 @@ Version: 1.1.2
 .page-area .row {
   display: flex;
   flex-direction: column-reverse;
+  height: 50vh;
 }
 
 .kubaKoderFooter {
