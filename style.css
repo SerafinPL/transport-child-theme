@@ -16,17 +16,35 @@ Version: 1.1.2
 #ship-to-different-address-checkbox,
 .woocommerce-shipping-totals,
 .cart-subtotal,
-.product-subtotal{
-    display: none !important;
-}
-
-.site-header{
-    margin-top: 20px;
-}
-
-.page-area .row{
-    display: flex;
-    flex-direction: column-reverse;
+.product-subtotal,
+.products.columns-1 {
+  display: none !important;
 }
 
 
+
+.site-header {
+  margin-top: 20px;
+}
+
+.col-md-9{
+    width: 100% !important;
+}
+
+.col-md-3{
+    width: 33%;
+}
+
+
+.page-area .row {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.kubaKoderFooter {
+  float: right;
+  border: 1px solid #000;
+  padding: 3px 5px 3px 15px;
+  border-collapse: ;
+  border-radius: 25px 0px 0px 0px;
+}

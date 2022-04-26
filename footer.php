@@ -2,7 +2,7 @@
 </div><!-- end page-area -->
 
 <?php /*do_action('envo_shopper_generate_footer'); */?>
-<div>Made by <a href='https://kubakoder.pl/'>KubaKoder.pl</a></div>
+<div class="kubaKoderFooter">Made by <a href='https://kubakoder.pl/'>KubaKoder.pl</a></div>
 
 </div><!-- end page-wrap -->
 

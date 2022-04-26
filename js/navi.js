@@ -2,7 +2,9 @@ jQuery(document).ready(function ($) {
   console.log("DONE");
 
   let AddN,
-    AddO,TitleNAD,TitleOD = null;
+    AddO,
+    TitleNAD,
+    TitleOD = null;
 
   if (
     $(".woocommerce-column--billing-address.col-1 > .woocommerce-column__title")
@@ -30,35 +32,19 @@ jQuery(document).ready(function ($) {
     AddO.innerHTML = "Adress Odbiorcy";
   }
 
-  if (
-    $(".woocommerce-billing-fields > h3")
-      .length
-  ) {
+  if ($(".woocommerce-billing-fields > h3").length) {
     console.log("DONE");
 
-    TitleNAD = $(
-      ".woocommerce-billing-fields > h3"
-    )[0];
+    TitleNAD = $(".woocommerce-billing-fields > h3")[0];
 
     TitleNAD.innerHTML = "Dane Nadawcy";
   }
 
-  if (
-    $("h3#ship-to-different-address")
-      .length
-  ) {
+  if ($("h3#ship-to-different-address").length) {
     console.log("DONE");
 
-    TitleOD = $(
-      "h3#ship-to-different-address"
-    )[0];
+    TitleOD = $("h3#ship-to-different-address")[0];
 
     TitleOD.innerHTML = "Dane Odbiorcy";
   }
-
-
-
-  
-
-
 });
