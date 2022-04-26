@@ -12,7 +12,8 @@ Version: 1.1.2
 .woocommerce-result-count,
 .woocommerce-ordering,
 .cart-subtotal,
-.woocommerce-shipping-totals{
+.woocommerce-shipping-totals,
+#ship-to-different-address-checkbox{
     display: none !important;
 }
 
@@ -24,3 +25,5 @@ Version: 1.1.2
     display: flex;
     flex-direction: column-reverse;
 }
+
+
