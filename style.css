@@ -17,9 +17,12 @@ Version: 1.1.2
 .woocommerce-shipping-totals,
 .cart-subtotal,
 .product-subtotal,
-.products.columns-1 {
+.products.columns-1,
+.woocommerce-notices-wrapper {
   display: none !important;
 }
+
+
 
 .woocommerce-products-header__title{
     text-align: center;
@@ -42,7 +45,7 @@ Version: 1.1.2
 
 
 #site-content{
-    min-height: 90vh;
+    min-height: 87vh;
     overflow-y: auto;
 }
 
