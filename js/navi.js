@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  console.log("DONE");
+  
 
   let AddN,
     AddO,
@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
     $(".woocommerce-column--billing-address.col-1 > .woocommerce-column__title")
       .length
   ) {
-    console.log("DONE");
+    
 
     AddN = $(
       ".woocommerce-column--billing-address.col-1 > .woocommerce-column__title"
@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
     $(".woocommerce-column--billing-address.col-1 > .woocommerce-column__title")
       .length
   ) {
-    console.log("DONE");
+    
 
     AddO = $(
       ".woocommerce-column--shipping-address.col-2 > .woocommerce-column__title"
@@ -33,7 +33,7 @@ jQuery(document).ready(function ($) {
   }
 
   if ($(".woocommerce-billing-fields > h3").length) {
-    console.log("DONE");
+    
 
     TitleNAD = $(".woocommerce-billing-fields > h3")[0];
 
@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
   }
 
   if ($("h3#ship-to-different-address").length) {
-    console.log("DONE");
+    
 
     TitleOD = $("h3#ship-to-different-address")[0];
 
