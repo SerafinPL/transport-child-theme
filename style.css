@@ -2,7 +2,7 @@
 Theme Name: Envo Shopper-child
 Template: envo-shopper
 Author: KubaKoder
-Version: 1.1.3
+Version: 1.1.4
 
 */
 
@@ -22,7 +22,14 @@ Version: 1.1.3
   display: none !important;
 }
 
+.shipping_address{
+  display: block !important;
+}
 
+
+label.woocommerce-form__label {
+  margin: 0;
+}
 
 .woocommerce-products-header__title, .single-title{
     text-align: center;

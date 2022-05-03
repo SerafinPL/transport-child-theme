@@ -43,8 +43,13 @@ jQuery(document).ready(function ($) {
   if ($("h3#ship-to-different-address").length) {
     
 
-    TitleOD = $("h3#ship-to-different-address")[0];
+    TitleOD = $("h3#ship-to-different-address label span")[0];
 
     TitleOD.innerHTML = "Dane Odbiorcy";
   }
+
+  console.log(AddN,
+    AddO,
+    TitleNAD,
+    TitleOD)
 });
