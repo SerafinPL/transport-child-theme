@@ -2,7 +2,7 @@
 Theme Name: Envo Shopper-child
 Template: envo-shopper
 Author: KubaKoder
-Version: 1.1.4
+Version: 1.1.5
 
 */
 
@@ -18,13 +18,17 @@ Version: 1.1.4
 .cart-subtotal,
 .product-subtotal,
 .products.columns-1,
-.woocommerce-notices-wrapper {
+.woocommerce-notices-wrapper,
+div.woocommerce > div.woocommerce-error{
   display: none !important;
 }
 
-.shipping_address{
+.shipping_address,
+div.woocommerce > div.woocommerce-form{
   display: block !important;
 }
+
+
 
 
 label.woocommerce-form__label {
