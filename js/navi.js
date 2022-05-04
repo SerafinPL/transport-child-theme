@@ -53,8 +53,6 @@ jQuery(document).ready(function ($) {
 
     infoCheckout = $("form.woocommerce-form > p")[0];
 
-    console.log(infoCheckout)
-
 
     if ( infoCheckout.className === ""){
 
@@ -63,8 +61,5 @@ jQuery(document).ready(function ($) {
 
   }
 
-  console.log(AddN,
-    AddO,
-    TitleNAD,
-    TitleOD)
+
 });
