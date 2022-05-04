@@ -19,12 +19,14 @@ Version: 1.1.5
 .product-subtotal,
 .products.columns-1,
 .woocommerce-notices-wrapper,
-div.woocommerce > div.woocommerce-error{
+div.woocommerce > div.woocommerce-error,
+.product_meta >.posted_in,
+.woocommerce-form-login-toggle{
   display: none !important;
 }
 
 .shipping_address,
-div.woocommerce > div.woocommerce-form{
+div.woocommerce > form.woocommerce-form{
   display: block !important;
 }
 
