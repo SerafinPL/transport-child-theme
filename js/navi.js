@@ -53,7 +53,14 @@ jQuery(document).ready(function ($) {
 
     infoCheckout = $("form.woocommerce-form > p")[0];
 
-    infoCheckout.innerHTML = "Aby złożyć zamówienie należy się zalogować.";
+    console.log(infoCheckout)
+
+
+    if ( infoCheckout.className === ""){
+
+      infoCheckout.innerHTML = "Aby złożyć zamówienie należy się zalogować.";
+    }
+
   }
 
   console.log(AddN,
