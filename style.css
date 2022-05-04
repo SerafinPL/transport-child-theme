@@ -2,7 +2,7 @@
 Theme Name: Envo Shopper-child
 Template: envo-shopper
 Author: KubaKoder
-Version: 1.1.5
+Version: 1.1.7
 
 */
 
@@ -20,6 +20,7 @@ Version: 1.1.5
 .products.columns-1,
 .woocommerce-notices-wrapper,
 div.woocommerce > div.woocommerce-error,
+div.woocommerce > div.woocommerce-form-login-toggle > div.woocommerce-info,
 .product_meta >.posted_in,
 .woocommerce-form-login-toggle{
   display: none !important;
@@ -30,6 +31,9 @@ div.woocommerce > form.woocommerce-form{
   display: block !important;
 }
 
+.mo-openid-app-icons > p {
+  padding: 8px;
+}
 
 
 

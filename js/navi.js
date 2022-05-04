@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
   let AddN,
     AddO,
     TitleNAD,
-    TitleOD = null;
+    TitleOD, infoCheckout = null;
 
   if (
     $(".woocommerce-column--billing-address.col-1 > .woocommerce-column__title")
@@ -46,6 +46,14 @@ jQuery(document).ready(function ($) {
     TitleOD = $("h3#ship-to-different-address label span")[0];
 
     TitleOD.innerHTML = "Dane Odbiorcy";
+  }
+
+  if ($("form.woocommerce-form").length) {
+    
+
+    infoCheckout = $("form.woocommerce-form > p")[0];
+
+    infoCheckout.innerHTML = "Aby złożyć zamówienie należy się zalogować.";
   }
 
   console.log(AddN,
