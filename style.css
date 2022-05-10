@@ -41,6 +41,10 @@ label.woocommerce-form__label {
   margin: 0;
 }
 
+.woocommerce form .form-row .input-checkbox{
+  margin: 7px 8px 0px -20px;
+}
+
 .woocommerce-products-header__title, .single-title{
     text-align: center;
     margin: 50px auto;
