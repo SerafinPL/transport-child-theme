@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
   let AddN,
     AddO,
     TitleNAD,
-    TitleOD, infoCheckout = null;
+    TitleOD, infoCheckout, titleCheckout = null;
 
   if (
     $(".woocommerce-column--billing-address.col-1 > .woocommerce-column__title")
@@ -60,6 +60,24 @@ jQuery(document).ready(function ($) {
     }
 
   }
+
+  if ($("header.single-head > h1.single-title").length) {
+    
+
+    titleCheckout = $("header.single-head > h1.single-title")[0];
+
+ 
+
+      titleCheckout.innerHTML = "Formularz zlecenia";
+    
+
+  }
+
+
+  console.log( AddN,
+    AddO,
+    TitleNAD,
+    TitleOD, infoCheckout, titleCheckout);
 
 
 });
